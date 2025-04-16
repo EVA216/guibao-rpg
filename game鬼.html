@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>鬼堡迷踪 - 遊戲開始</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #eee;
+            font-family: '微軟正黑體', sans-serif;
+            margin: 0;
+            padding: 30px;
+            background-image: url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .box {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #ff4757;
+        }
+        .choice-btn {
+            display: block;
+            margin-top: 20px;
+            background: #444;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .choice-btn:hover {
+            background: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>第一章：封印之門</h2>
+        <p>夜幕低垂，三名年輕探險者踏進森林深處，眼前出現了一座詭異古堡。懷著好奇，他們推開了生鏽的大門...</p>
+        <p>大門「轟！」地一聲關上。他們回頭，卻發現門已消失，只剩下一道冰冷的石牆。</p>
+        <p>他們只能往前走，試圖在古堡中尋找出口。</p>
+        <button class="choice-btn" onclick="nextChapter()">繼續探索</button>
+    </div>
+
+    <script>
+        function nextChapter() {
+            alert("你即將進入更深處的陰影...（完整版即將上線）");
+        }
+    </script>
+</body>
+</html>
